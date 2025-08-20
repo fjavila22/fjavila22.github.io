@@ -1,0 +1,36 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background :red;
+}
+.box1{
+    background :brown;
+}
+.box2{
+    background :lightblue;
+}
+.box3{
+    background :darkgoldenrod;
+}
+.box4{
+    background: red;
+}
+.box5{
+    background: rgb(0, 255, 179);
+    width: 200px
+}
+.box6{
+    background: rgb(76, 0, 255);
+    width: 200p
+}
+.box7{
+    background: orange;
+    height: 200px;
+    width: 200px;
+}
+.box8{
+    background: rgb(200, 255, 0);
+}
+.avila{
+    display:flex;
+}
