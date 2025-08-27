@@ -1,0 +1,41 @@
+.card{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 7px 7px 0 0;
+    margin: 20px;
+}
+.card:hover{
+    box-shadow: 7px 7px 0 0 skyblue;
+    background-color:pink;
+}
+h2,p{
+    margin: 0px;
+}
+p{
+    margin-bottom: 10px;
+}
+.card-header{
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom :10px;
+    border-bottom: 1px solid black;
+}
+.btn{
+    border: none;
+    background:brown;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+}
+.btn:hover{
+    background: #ad4707;
+    background: linear-gradient(90deg, rgb(255, 88, 88) 9%, rgba(142, 77, 140, 1) 23%, rgba(87, 199, 133, 1) 35%, rgba(203, 115, 158, 1) 59%, rgba(132, 206, 118, 1) 87%, rgba(237, 221, 83, 1) 100%);
+    cursor: pointer;
+    color:black;
+}
+.Avila{
+    display:flex;
+    gap: 20px;
+}
