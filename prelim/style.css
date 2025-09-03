@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+}
+.avila-header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #212529;
+    color: white;
+    height: 60px;
+}
+.avila-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    gap: 5px;
+}
+.avila-icon span{
+    font-size: 2em;
+}
+.avila-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avila-menu ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-right: 20px;
+}
+.avila-body{
+    display: flex;
+}
+.image{
+    flex: 1;
+    display: flex;
+    height: 570px;
+}
+.image img{
+    width: 100%;
+    height: auto;
+}
+.avila-form{
+    display: flex;
+    padding-left: 30px;
+    justify-content: center;
+    padding-right: 70px;
+}
+.city-option{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.checkbox-div{
+    display: flex;
+    gap: 5px;
+}
+.checkbox-option{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.create-account{
+    background-color: #198753;
+    border-radius: 0.5em;
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+.avila-footer-question{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.avila-footer-pics{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.card{
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+.card img{
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.card-body{
+    padding: 10px;
+}
+.reserve-div{
+    display: flex;
+    padding: 50px;
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    gap: 20px;
+    justify-content: center;
+}
+.reserve-content1 button{
+    background-color: #ffc007;
+    border-radius: 0.5em;
+    border: none;
+    padding: 10px;
+}
+.reserve-content2{
+    display: flex;
+    height: 400px;
+    width: 50%;
+}
+.reserve-content2 img{
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+.avila-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+.avila-icon2{
+    display: flex;
+    flex-direction: column;
+}
+.avila-icon3{
+    display: flex;
+    align-items: center;
+}
+.avila-icon4{
+    display: flex;
+    align-items: center;
+}
+.avila-icon2 ul{
+    list-style: none;
+    padding: 0px;
+}
+.create-account:hover{
+    cursor: pointer;
+}
