@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  </head>
+  <body>
+    <div class="container-fluid bg-dark text-white sticky-top">
+        <div class="row text-center align-items-center p-2">
+            <div class="col-6 d-flex gap-2">
+                <i class="bi bi-airplane-engines ps-3 fs-2"></i>
+                <h2 class="mb-0">Arat na Travel</h2>
+            </div>
+            <div class="col-6 main-nav d-flex justify-content-end">
+                <ul class="d-flex gap-3 pe-2 mb-0 list-unstyled">
+                    <li><a href="#home" class="text-decoration-none text-white bg-success p-2 rounded">Home</a></li>
+                    <li><a href="#features" class="text-decoration-none text-white">Features</a></li>
+                    <li><a href="#pricing" class="text-decoration-none text-white">Pricing</a></li>
+                    <li><a href="#faqs" class="text-decoration-none text-white">FAQs</a></li>
+                    <li><a href="#about" class="text-decoration-none text-white">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="home">
+        <div class="row">
+            <div class="col-8 p-0">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner" style="height:100dvh;">
+                        <div class="carousel-item active h-100">
+                        <img src="images/travel4.jpg" class="d-block w-100 h-100 object-fit-cover" alt="first slide">
+                        </div>
+                        <div class="carousel-item h-100">
+                        <img src="images/travel2.jpg" class="d-block w-100 h-100 object-fit-cover" alt="second slide">
+                        </div>
+                        <div class="carousel-item h-100">
+                        <img src="images/travel3.jpg" class="d-block w-100 h-100 object-fit-cover" alt="third slide">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-4 p-5 bg-body-secondary">
+                <h2>Create an Account</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="inputEmail" class="form-label">First name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPassword" class="form-label">Last name</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="input-group mb-3">
+                        <label for="inputUsername" class="form-label">Username</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-5">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label" id="inputState">State</label>
+                            <select class="form-select">
+                                <option selected>Choose</option>
+                                <option value="Philippines">Philippines</option>
+                                <option value="Thailand">Thailand</option>
+                                <option value="Vietnam">Vietnam</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="inputZip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Agree to terms and conditions</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary bg-success">Create Account</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center justify-content-center align-items-start pt-5" style="min-height: 100dvh;" id="features">
+        <div class="col-12 mb-0 pt-5">
+            <h1>Why Choose Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, delectus excepturi debitis nam accusantium magnam praesentium inventore provident?</p>
+        </div>
+        <div class="row justify-content-center p-5 pt-0 mt-0">
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/travel5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/travel6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/travel3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-body-secondary py-5" id="pricing">
+        <div class="row justify-content-center align-items-center p-5 m-0" style="min-height: 100dvh;">
+            <div class="col-md-6 h-100">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3 class="fw-bold">Reserve Membership for Only $99 USD Per Month</h3>
+                <p>Exclusively on the Amaff Jets App, enjoy a lifetyle conderge, learn, VIP status, at our partner, and more.</p>
+                <button type="button" class="btn btn-warning">Read More</button>
+            </div>
+            <div class="col-md-6 h-100">
+                <img src="images/travel1.jpg" class="img-fluid" alt="airplane">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="about">
+        <div class="row p-0 mx-5 d-flex pt-5 border-top border-secondary-subtle mt-5" style="height: 400px;">
+            <div class="col-4 d-flex flex-column pe-5 pt-0 ms-0">
+                <div class="mb-0 d-flex align-items-center gap-2">
+                    <i class="bi bi-airplane-engines ps-3 fs-1"></i>
+                    <h4>Arat na Travel</h4>
+                </div><div class="mb-0 ps-3">
+                    <p class="mb-0">© 2025. All Rights</p>
+                    <p>Reserved.</p>
+                </div>
+            </div>
+            <div class="col-3 ps-5">
+                <h3>Section</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-1">Home</li>
+                    <li class="mb-1">Link</li>
+                    <li class="mb-1">Features</li>
+                    <li class="mb-1">Pricing</li>
+                    <li class="mb-1">About</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h3>Section</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-1">Home</li>
+                    <li class="mb-1">Link</li>
+                    <li class="mb-1">Features</li>
+                    <li class="mb-1">Pricing</li>
+                    <li class="mb-1">About</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <h3>Section</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-1">Home</li>
+                    <li class="mb-1">Link</li>
+                    <li class="mb-1">Features</li>
+                    <li class="mb-1">Pricing</li>
+                    <li class="mb-1">About</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
